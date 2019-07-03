@@ -26,10 +26,13 @@ GPIO.setup(trig_pin,GPIO.OUT)
 
 The sensor values are sampled over time into a variable called distance
 
-a timing function is used for measuring the interval between the measurements
+A timing function is used for measuring the interval between the measurements
 timing is required to cause a delay and help in proper reading of the sensor values
+
 Timing the measurments
-=====================
+=======================
+Raspberry pi api has a build in function for measuring time 
+
 pulse_end = time.time()                 #Time of the last HIGH pulse 
 
 
