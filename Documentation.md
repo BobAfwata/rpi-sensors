@@ -29,7 +29,7 @@ The sensor values are sampled over time into a variable called distance
 A timing function is used for measuring the interval between the measurements
 timing is required to cause a delay and help in proper reading of the sensor values
 
-Timing the measurments
+Timing the measurements
 =======================
 Raspberry pi api has a build in function for measuring time 
 
